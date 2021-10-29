@@ -1,0 +1,39 @@
+[
+    {
+        "key": 1,
+        "img": "https://images.indianexpress.com/2020/04/books_1200.jpg",
+        "title": "BOOKS",
+        "description": "Different types of books of your choice are delivered"
+    },
+    {
+        "key": 2,
+        "img": "https://i0.wp.com/infotainmentnews.net/wp-content/uploads/2020/12/image2.jpeg",
+        "title": "PLANT",
+        "description": "Different types of plant and tub of your choice are delivered"
+    },
+    {
+        "key": 3,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4o2thR7zxNdw_2FVt2XbKdRK_KdF-23iWFg&usqp=CAU",
+        "title": "ELECTRIC PRODUCTS",
+        "description": "Different types of electronic product of your choice are delivered"
+    },
+    {
+        "key": 4,
+        "img": "https://www.verdictfoodservice.com/wp-content/uploads/sites/31/2021/09/rowan-freeman-clYlmCaQbzY-unsplash-7.jpg",
+        "title": "FOODS",
+        "description": "Different types of foods of your choice are delivered"
+    },
+    {
+        "key": 5,
+        "img": "https://s.ecrater.com/stores/8570/4ec62e88001e6_8570n.jpg",
+        "title": "CERAMICS",
+        "description": "Different types of ceramics of your choice are delivered"
+    },
+    {
+        "key": 6,
+        "img": "https://www.linbis.com/wp-content/uploads/2019/03/furniture-delivery-services.jpg",
+        "title": "FURNITURE",
+        "description": "Different types of furniture of your choice are delivered"
+    }
+   
+]
