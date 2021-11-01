@@ -16,6 +16,7 @@ const Header = () => {
                     <NavLink className='link' to="/home">Home</NavLink>
                     <NavLink className='link' to="/items">Items</NavLink>
                     <NavLink className='link' to="/details">Details</NavLink>
+                    <NavLink className='link' to="/users">Users</NavLink>
                     <NavLink className='link' to="/aboutUs">About Us</NavLink>
                     {/* <span> {user?.displayName} </span>
                     {user?.email && <Button className='btn' onClick={logOut}>Log Out</Button>} */}
