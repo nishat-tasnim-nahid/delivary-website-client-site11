@@ -14,7 +14,7 @@ const Details = () => {
         const number = numberRef.current.value;
         const newUser = {name, email,address, number}
 
-        fetch('http://localhost:5000/users',{
+        fetch('https://infinite-spire-73417.herokuapp.com/users',{
             method: 'POST',
             headers:{
                 'content-type': 'application/json'

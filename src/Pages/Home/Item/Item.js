@@ -13,7 +13,7 @@ const Item = ({ item }) => {
             <img src={img} alt="" />
             <h2>{title}</h2>
             <p>{description}</p>
-            <button onClick={handleClick} className="px-3 py-1 mb-2 bg-warning bg-opacity-75 border border-info rounded">See More</button>
+            <button onClick={handleClick} className="px-3 py-1 mb-2 bg-warning bg-opacity-75 border border-info rounded">Book Now</button>
             
         </div>
     );

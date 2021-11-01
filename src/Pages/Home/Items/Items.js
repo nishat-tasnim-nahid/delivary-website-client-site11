@@ -5,7 +5,7 @@ import './Items.css'
 const Items = () => {
     const [items,setItems] = useState([])
     useEffect(()=>{
-        fetch("./items.json")
+        fetch("https://infinite-spire-73417.herokuapp.com/items")
         .then(res=> res.json())
         .then(data=> setItems(data))
     },[])

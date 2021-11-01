@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Users = () => {
     const [users, setUsers] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/users')
+        fetch('https://infinite-spire-73417.herokuapp.com/users')
             .then(res => res.json())
             .then(data => setUsers(data))
     }, []);
@@ -14,7 +14,7 @@ const Users = () => {
     const handleDeleteUser = id => {
        const procced = window.confirm('Are you sure, delete this information');
        if(procced){
-        const url = `http://localhost:5000/users/${id}`
+        const url = `https://infinite-spire-73417.herokuapp.com/users/${id}`
         fetch(url, {
             method: 'DELETE',
         })
